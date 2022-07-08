@@ -6,11 +6,11 @@ import calculator from '../assets/images/calculator.png';
 const projects = [
   {
     name: 'Bookstore',
-    description: 'Work from home accessories',
+    description: 'The Bookstore website manages the inventory of books by allowing users to; Display a list of books, Add books, Remove books from the store.',
     imageSrc: books,
-    imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+    imageAlt: 'The Bookstore website',
     href: '/bookstore-app',
-    techStack: ['React', 'Redux', 'Firebase', 'Styled Components', 'Material UI'],
+    techStack: ['React', 'Redux', 'CSS', 'JavaScript'],
   },
   {
     name: 'Self-Improvement',
@@ -18,7 +18,7 @@ const projects = [
     imageSrc: car,
     imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
     href: '/self-improvement',
-    techStack: ['React', 'Redux', 'JWT', 'Ruby', 'Ruby on Rails', 'PostgreSQL'],
+    techStack: ['React', 'Redux', 'JWT', 'Ruby', 'Ruby on Rails'],
   },
   {
     name: 'Travel',
@@ -34,7 +34,7 @@ const projects = [
     imageSrc: books,
     imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
     href: '/bookstore-app',
-    techStack: ['React', 'Redux', 'Firebase', 'Styled Components', 'Material UI'],
+    techStack: ['React', 'Redux', 'CSS'],
   },
   {
     name: 'Self-Improvement',
@@ -42,15 +42,15 @@ const projects = [
     imageSrc: car,
     imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
     href: '/self-improvement',
-    techStack: ['React', 'Redux', 'JWT', 'Ruby', 'Ruby on Rails', 'PostgreSQL'],
+    techStack: ['React', 'Redux', 'JWT', 'Ruby', 'Ruby on Rails'],
   },
   {
-    name: 'Travel',
-    description: 'Daily commute essentials',
+    name: "Space Travellers' Hub",
+    description: "This is a Space Travellers' website for making rocket reservations based on SpaceX API. It represents a fictional company that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions.",
     imageSrc: pokimon,
-    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+    imageAlt: "This is a Space Travellers' website for making rocket reservations",
     href: '/travel',
-    techStack: ['React', 'Redux', 'JavaScript', 'CSS', 'HTML'],
+    techStack: ['JavaScript', 'CSS', 'HTML'],
   },
   {
     name: 'Bookstore',
@@ -58,7 +58,7 @@ const projects = [
     imageSrc: books,
     imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
     href: '/bookstore-app',
-    techStack: ['React', 'Redux', 'Firebase', 'Styled Components', 'Material UI'],
+    techStack: ['React', 'Redux', 'CSS'],
   },
   {
     name: 'Self-Improvement',
@@ -66,7 +66,7 @@ const projects = [
     imageSrc: car,
     imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
     href: '/self-improvement',
-    techStack: ['React', 'Redux', 'JWT', 'Ruby', 'Ruby on Rails', 'PostgreSQL'],
+    techStack: ['React', 'Redux', 'JWT', 'Ruby', 'Ruby on Rails'],
   },
   {
     name: 'Travel',
