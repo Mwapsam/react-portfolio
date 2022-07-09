@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { useState } from 'react';
 import {
   FaBars,
@@ -11,6 +12,16 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 import Logo from '../assets/logo.png';
+
+function Mailto({
+  email, subject, body, ...props
+}) {
+  return (
+    <a className="flex justify-between items-center w-full text-gray-300" href={`mailto:${email}?subject=${subject || ''}&body=${body || ''}`}>
+      {props.children}
+    </a>
+  );
+}
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -115,16 +126,15 @@ const Navbar = () => {
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-indigo-900">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              target="_blank"
-              rel="noreferrer"
-              href="mwapsam@gmail.com"
+            <Mailto
+              email="dev@mwape.ml"
+              subject="Let's connect"
+              body="Leave a message!"
             >
               Email
               {' '}
               <HiOutlineMail size={30} />
-            </a>
+            </Mailto>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#9a9a9a]">
             <a
